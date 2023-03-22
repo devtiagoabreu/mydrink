@@ -1,1 +1,3 @@
 npx create-react-app mydrink --template @devsamurai/typescript-basic
+npm start
+
