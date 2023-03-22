@@ -1,2 +1,2 @@
 # mydrink
-Beverage Ecommerce Startup
+Beverage Ecommerce Startup.
