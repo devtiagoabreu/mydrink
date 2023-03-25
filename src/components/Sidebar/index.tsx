@@ -10,7 +10,7 @@ export function Sidebar() {
     <nav>
       <ul>
         <li>
-          <a href='#'>
+          <a href='#' >
             <CervejaIcon />
             <span>Cervejas</span>
           </a>
