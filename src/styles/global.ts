@@ -8,6 +8,6 @@ export const GlobalStyle = createGlobalStyle`
     background: ${(props) => props.theme.colors.gray900};
     color: ${(props) => props.theme.colors.white};
     font-family: ${(props) => props.theme.fontFamily.sans};
-    padding: 1rem;
+    //padding: 1rem; //comentando o padding para o sidebar ocupar toda a altura e largura
   }
 `
