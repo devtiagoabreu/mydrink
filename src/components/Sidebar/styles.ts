@@ -90,4 +90,48 @@ export const Container = styled.aside<ContainerProps>`
     }
   }
 
+  @media (max-width: 720px) {
+    //trazendo o menu para baixo perto do polegar
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: 5rem;
+    padding: 0 0;
+    overflow-y: auto;
+    button {
+      display: none;
+    }
+    nav {
+      height: 100%;
+
+      ul {
+        flex-direction: row;
+        align-items: center;
+      }
+      li {
+        a {
+          flex-direction: column;
+          padding: 0rem;
+
+          svg {
+            width: 3.25rem;
+            height: 3.25rem;
+          }
+
+          span {
+            display: none;
+          }
+
+          &.active {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
 `
