@@ -1,13 +1,24 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+interface ContainerProps {
+  isMenuOpen: boolean
+}
 
-export const Container = styled.aside`
+export const Container = styled.aside<ContainerProps>`
   background-color: ${({theme}) => theme.colors.red};
-  width: 7.75rem; //rem é um unidade relativa se modifica segundo o evento na tela
+  ${({ isMenuOpen }) =>
+    isMenuOpen
+      ? css`
+          width: 16.3rem;
+        `
+      : css`
+          width: 7.75rem;
+        `}
   padding: 2rem 0;
   overflow: hidden; //tira barra de rolagem
   display: flex;
   flex-direction: column; //o agrupamento do flex será verticalmente (colunas)
   align-items: center; //itens centralizados
+  transition: width 0.3s; //inserir uma flidez na transição
 
   button {
     background: none;
