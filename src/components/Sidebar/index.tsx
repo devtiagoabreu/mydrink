@@ -1,8 +1,9 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 import { Container } from "./styles"
 import menuImg from '../../assets/menu.svg'
 import { ReactComponent as CervejaIcon } from '../../assets/cerveja.svg'
-import { ReactComponent as WhiskeyIcon } from '../../assets/whiskey.svg'
+import { ReactComponent as DestiladoIcon } from '../../assets/whiskey.svg'
 import { ReactComponent as VinhoIcon } from '../../assets/vinho.svg'
 import { ReactComponent as EnergyDrinkIcon } from '../../assets/energy-drink.svg'
 import { ReactComponent as RefrigeranteIcon } from '../../assets/refrigerante.svg'
@@ -23,34 +24,34 @@ export function Sidebar() {
       <nav>
         <ul>
           <li>
-            <a href='#' className='active'>
+            <NavLink to='/'>
               <CervejaIcon />
               <span>Cervejas</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href='#' >
-              <WhiskeyIcon />
+            <NavLink to='destilados'>
+              <DestiladoIcon />
               <span>Destilados</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href='#' >
+            <NavLink to='vinhos'>
               <VinhoIcon />
               <span>Vinhos</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href='#' >
+            <NavLink to='energeticos'>
               <EnergyDrinkIcon />
               <span>Energéticos</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href='#' >
+            <NavLink to='refrigerantes'>
               <RefrigeranteIcon />
               <span>Refrigerantes</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
