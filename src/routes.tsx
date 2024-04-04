@@ -8,6 +8,8 @@ import DestiladosPage from './pages/Main/Destilados'
 import VinhosPage from './pages/Main/Vinhos'
 import EnergeticosPage from './pages/Main/Energeticos'
 import RefrigerantesPage from './pages/Main/Refrigerantes'
+import PorcoesPage from './pages/Main/Porcoes'
+import SAlcoolPage from './pages/Main/SAlcool'
 
 export function AppRoutes() {
   return (
@@ -20,6 +22,8 @@ export function AppRoutes() {
         <Route path='refrigerantes' element={<RefrigerantesPage />} />
         <Route path='burgers' element={<BurgersPage />} />
         <Route path='pizzas' element={<PizzasPage />} />
+        <Route path='porcoes' element={<PorcoesPage />} />
+        <Route path='SAlcool' element={<SAlcoolPage />} />
       </Route>
     </Routes>
   )

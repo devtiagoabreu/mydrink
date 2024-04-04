@@ -4,7 +4,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.aside<ContainerProps>`
-  background-color: ${({theme}) => theme.colors.red};
+  background-color: ${({theme}) => theme.colors.purple500};
   ${({ isMenuOpen }) =>
     isMenuOpen
       ? css`
@@ -14,11 +14,11 @@ export const Container = styled.aside<ContainerProps>`
           width: 7.75rem;
         `}
   padding: 2rem 0;
-  overflow: hidden; //tira barra de rolagem
+  overflow: hidden; //remove scroll bar
   display: flex;
-  flex-direction: column; //o agrupamento do flex será verticalmente (colunas)
-  align-items: center; //itens centralizados
-  transition: width 0.3s; //inserir uma flidez na transição
+  flex-direction: column; //the flex grouping will be vertically (columns)
+  align-items: center; //centered items
+  transition: width 0.3s; //insert a flair in the transition
 
   button {
     background: none;

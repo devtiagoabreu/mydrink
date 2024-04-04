@@ -3,10 +3,9 @@ import { NavLink } from "react-router-dom"
 import { Container } from "./styles"
 import menuImg from '../../assets/menu.svg'
 import { ReactComponent as CervejaIcon } from '../../assets/cerveja.svg'
-import { ReactComponent as DestiladoIcon } from '../../assets/whiskey.svg'
-import { ReactComponent as VinhoIcon } from '../../assets/vinho.svg'
+import { ReactComponent as BurgerIcon } from '../../assets/burger.svg'
+import { ReactComponent as PizzaIcon } from '../../assets/pizza.svg'
 import { ReactComponent as EnergyDrinkIcon } from '../../assets/energy-drink.svg'
-import { ReactComponent as RefrigeranteIcon } from '../../assets/refrigerante.svg'
 
 
 export function Sidebar() {
@@ -30,27 +29,21 @@ export function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to='destilados'>
-              <DestiladoIcon />
-              <span>Destilados</span>
+            <NavLink to='burgers'>
+              <BurgerIcon />
+              <span>Burgers</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='vinhos'>
-              <VinhoIcon />
-              <span>Vinhos</span>
+            <NavLink to='porcoes'>
+              <PizzaIcon />
+              <span>Porções</span>
             </NavLink>
           </li>
           <li>
-            <NavLink to='energeticos'>
+            <NavLink to='SAlcool'>
               <EnergyDrinkIcon />
-              <span>Energéticos</span>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to='refrigerantes'>
-              <RefrigeranteIcon />
-              <span>Refrigerantes</span>
+              <span>S/Alcool</span>
             </NavLink>
           </li>
         </ul>
