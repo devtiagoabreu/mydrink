@@ -1,6 +1,6 @@
 import { Head } from '../../../components/Head'
 import { SnackTitle } from '../../../components/SnackTitle'
-
+import { Snacks } from '../../../components/Snacks'
 
 export default function Burgers() {
   const data = [
@@ -22,12 +22,13 @@ export default function Burgers() {
     },
 ]
 
-  console.log('data', data);
+ //console.log('data', data);
 
   return (
     <>
       <Head title='Hamburgueres' description='Nossos melhores burguers' />
       <SnackTitle>Hambúrgueres</SnackTitle>
+      <Snacks snacks={data}></Snacks>
     </>
   )
 }
