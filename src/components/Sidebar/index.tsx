@@ -2,6 +2,7 @@ import { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { Container } from "./styles"
 import menuImg from '../../assets/menu.svg'
+import { ReactComponent as LupuloIcon } from '../../assets/lupulo.svg'
 import { ReactComponent as CervejaIcon } from '../../assets/cerveja.svg'
 import { ReactComponent as BurgerIcon } from '../../assets/burger.svg'
 import { ReactComponent as PizzaIcon } from '../../assets/pizza.svg'
@@ -18,12 +19,18 @@ export function Sidebar() {
   return (
     <Container isMenuOpen={menuOpen}>
       <button type='button' onClick={handleToggleMenu}>
-        <img src={menuImg} alt='Abrie e fechar o menu' />
+        <img src={menuImg} alt='Abrir e fechar o menu' />
       </button>
       <nav>
         <ul>
+        <li>
+            <NavLink to='Land'>
+              <LupuloIcon />
+              <span>Home</span>
+            </NavLink>
+          </li>
           <li>
-            <NavLink to='/'>
+            <NavLink to='cervejas'>
               <CervejaIcon />
               <span>Cervejas</span>
             </NavLink>
