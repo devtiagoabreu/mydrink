@@ -18,7 +18,7 @@ export default function Land() {
       name: 'Qui - karaokê',
       description: 'Outro pilar que sustenta a Sancta é a arte, através principalmente da música ao vivo de ótima qualidade.',
       important: '',
-      image: 'https://liberal.com.br/wp-content/uploads/2022/07/Espa%C3%A7o-re%C3%BAne-boa-cerveja-de-produ%C3%A7%C3%A3o-pr%C3%B3pria-gastronomia-um-ambiente-descontra%C3%ADdo-m%C3%BAsica-e-arte__Divulga%C3%A7%C3%A3o.jpg',
+      image: 'https://mydrink.com.br/images/karaoke.jpg',
     },
     {
       id: 4,
