@@ -6,19 +6,19 @@ export default function Porcoes() {
   const data = [
     {
       id: 1,
-      snack: 'burger',
-      name: 'Mega',
-      description: 'O artesanal tamanho família, recheado com três carnes suculentas, queijo e bacon.',
-      price: 25.5,
-      image: 'https://i.imgur.com/upjIUnG.jpg',
+      snack: 'porcoes',
+      name: 'Anéis de Cebola ',
+      description: 'Acompanha maionese da casa.',
+      price: 28.5,
+      image: 'https://www.culinariadavovo.com.br/wp-content/uploads/2021/03/anel-de-cebola-na-AirFryer.jpg',
     },
     {
       id: 2,
-      snack: 'burger',
-      name: 'Extra Bacon',
-      description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado, e ainda quejo e carne.',
-      price: 23.5,
-      image: 'https://i.imgur.com/B4J04AJ.jpg',
+      snack: 'porcoes',
+      name: 'Mandioca Frita',
+      description: 'Acompanha maionese da casa.',
+      price: 27.5,
+      image: 'https://artedochef.com.br/wp-content/uploads/2023/05/como-fazer-mandioca-frita.jpg',
     },
 ]
   return (

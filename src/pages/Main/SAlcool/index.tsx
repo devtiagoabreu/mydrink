@@ -7,19 +7,19 @@ export default function SAlcool() {
   const data = [
     {
       id: 1,
-      snack: 'burger',
-      name: 'Mega',
-      description: 'O artesanal tamanho família, recheado com três carnes suculentas, queijo e bacon.',
-      price: 25.5,
-      image: 'https://i.imgur.com/upjIUnG.jpg',
+      snack: 'salcool',
+      name: 'Água com gás',
+      description: 'Água carbonatada, consiste em água na qual se dissolve dióxido de carbono sob pressão.',
+      price: 6.5,
+      image: 'https://ampost.com.br/wp-content/uploads/2023/11/agua-com-gas-faz-mal.jpg',
     },
     {
       id: 2,
-      snack: 'burger',
-      name: 'Extra Bacon',
-      description: 'Criado para os amantes de bacon, possui em todas as suas camadas bacon bem assado, e ainda quejo e carne.',
-      price: 23.5,
-      image: 'https://i.imgur.com/B4J04AJ.jpg',
+      snack: 'salcool',
+      name: 'Red Bull',
+      description: 'Bebida energética, taurina, glucuronolactona, cafeína e vitaminas do complexo B.',
+      price: 14.5,
+      image: 'https://media.warriortrading.com/2022/04/04131227/shutterstock_1536802289.jpg',
     },
 ]
   return (

@@ -34,7 +34,7 @@ export default function Cervejas() {
       name: 'Margarida',
       description: 'ABV: 3.8% | IBU:18 Nossa versão da Summer Ale tem como base uma blond ale belga. Nós adicionamos o lúpulo Citra no final da fervura, criando uma refrescante e interessante combinação do frutado cítrico da levedura com o toque cítrico do lúpulo. Muito atrativa para dias quentes de verão.',
       price: 19.5,
-      image: 'https://files.menudino.com/cardapios/8164/320.jpg',
+      image: 'https://filescms.s3.sa-east-1.amazonaws.com/2021/05/Blonde-Ale2.jpg',
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ export default function Cervejas() {
       name: 'Pérola',
       description: 'Cerveja belga de trigo com 4.5% ABV e 14 IBU. Condimentada com sementes de coentro, cascas de laranja e camomila, oferece alta drinkability e extrema refrescância. O trigo não maltado proporciona um paladar aveludado, combinando-se com o sabor das especiarias, Muito atrativa para.',
       price: 22.5,
-      image: 'https://files.menudino.com/cardapios/8164/322.jpg',
+      image: 'https://filescms.s3.sa-east-1.amazonaws.com/2021/05/witbier.jpg',
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ export default function Cervejas() {
       name: 'Sapezeiro',
       description: 'Session IPA com 4,4% ABV e 26 IBU. Versão menos alcoólica, mantendo características lupuladas. Desenvolvida para equilibrar quantidade e qualidade, priorizando aroma sobre amargor. Utiliza levedura kweik, de origem norueguesa. Corpo leve e extremamente refrescanteMuito atrativa para.',
       price: 22.5,
-      image: 'https://files.menudino.com/cardapios/8164/323.jpg',
+      image: 'https://cervejar.com/wp-content/webp-express/webp-images/uploads/2023/06/cerveja-ipa.jpg.webp',
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ export default function Cervejas() {
       name: 'SBO',
       description: 'ABV: 4% | IBU: 18 Cerveja de coloração dourada, com baixo teor alcoólico, baixo amargor e delicioso aroma e sabor de lúpulo. Nossa Hop Lager é uma cerveja leve de baixa fermentação com dryhop de lúpulo citra. Corpo leve e extremamente refrescanteMuito atrativa para dias de verão.',
       price: 22.5,
-      image: 'https://files.menudino.com/cardapios/8164/321.jpg',
+      image: 'https://cervejariaantuerpia.com.br/wp-content/uploads/2020/09/como-surgiu-a-cerveja-artesanal.jpg',
     },
 ]
   return (
