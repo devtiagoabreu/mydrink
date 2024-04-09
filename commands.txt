@@ -2,5 +2,6 @@ npx create-react-app mydrink --template @devsamurai/typescript-basic
 npm i react-icons -S
 npm i polished -S
 npm i axios -S
+npm i json-server --save-dev
 npm start
 

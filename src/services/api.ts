@@ -10,6 +10,4 @@ export const getBurgers = () => api.get('/burgers')
 export const getPorcoes = () => api.get('/Porcoes')
 export const getSAlcool = () => api.get('/SAlcool')
 
-
-
 export default api
