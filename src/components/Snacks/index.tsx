@@ -9,7 +9,9 @@ interface SnacksProps {
 export function Snacks({ snacks }: SnacksProps) {
   return (
     <Container>
-      {
+      {!snacks.length ? (
+        <p style={{ color: '' }}>Loading</p>
+      ) : (
         snacks.map((snack) => (
         <div key={snack.id} className='snack'>
           <h2>{snack.name}</h2>
@@ -22,7 +24,7 @@ export function Snacks({ snacks }: SnacksProps) {
             </button>
           </div>
         </div>
-      ))}
+      )))}
     </Container>
   )
 }
