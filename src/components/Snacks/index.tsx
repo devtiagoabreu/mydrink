@@ -10,7 +10,7 @@ export function Snacks({ snacks }: SnacksProps) {
   return (
     <Container>
       {!snacks.length ? (
-        <p style={{ color: '' }}>Loading</p>
+        <p style={{ color: '#fff' }}>Loading...</p>
       ) : (
         snacks.map((snack) => (
         <div key={snack.id} className='snack'>
